@@ -117,7 +117,7 @@ nav > div > div > div > div > a:active {
 }
 
 .card1-flex {
-  width: 100%;
+  padding: 0 3%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
