@@ -1,0 +1,255 @@
+body {
+  margin: 0px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto Condensed", sans-serif;
+}
+/* CSS para barra de navegación */
+.nav-flex {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  height: 44px;
+  display: flex;
+  background-color: aliceblue;
+  justify-content: center;
+}
+
+nav > div > div > div > div > a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav > div > div > div > div {
+  margin: 0px 20px;
+}
+
+nav > div > div > div > div > a:link {
+  color: black;
+}
+nav > div > div > div > div > a:visited {
+  color: black;
+}
+nav > div > div > div > div > a:hover {
+  color: orange;
+}
+nav > div > div > div > div > a:active {
+  color: orange;
+}
+
+.logo-nav {
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  left: 100px;
+  top: 20px;
+}
+
+.imagen-nav {
+  width: 50%;
+}
+
+.enlaces-flex {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+  width: 100%;
+  justify-content: center;
+}
+
+/* CSS para las cards*/
+.titulo-card {
+  background: #561786;
+  margin: 0px;
+  text-align: center;
+  padding-top: 1rem;
+  color: #87e1ed;
+  font-size: 25px;
+}
+
+.card-flex {
+  background: #561786;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem 0 2rem 0;
+}
+
+.card {
+  margin: 10px;
+  background: #480a77 !important;
+}
+
+.caja:hover {
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.37);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.37);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.37);
+  transform: scale(1.01);
+}
+
+.caja1:hover {
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.37);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.37);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.37);
+  transform: scale(1.01);
+}
+
+.card-body {
+  background: #480a77 !important;
+}
+
+.card-text {
+  color: aliceblue;
+  font-size: 14px;
+}
+
+/* CSS para cards1 */
+
+.titulo-card1 {
+  background: #510a86;
+  margin: 0px;
+  text-align: center;
+  padding-top: 1rem;
+  color: #87e1ed;
+  font-size: 25px;
+}
+
+.card1-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #510a86;
+}
+
+.card1-contenedor {
+  width: 1600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 2rem 1rem;
+}
+
+.card-body {
+  background: #47037a;
+}
+
+.text-card1 {
+  font-size: 12px;
+  color: #f66300;
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+}
+
+.text2-card1 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #f0f8ff;
+  margin-bottom: 0.2rem;
+}
+
+.card-text1 {
+  font: 14px;
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+  color: aliceblue;
+}
+
+/* CSS Footer */
+.footer-index {
+  margin-top: auto;
+}
+
+.footer-text {
+  background-color: #612490;
+  padding: 36px 0;
+}
+
+.text1 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 24px;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+.text2 {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+.footer-icon {
+  background-color: #401164;
+  text-align: center;
+}
+
+.link-footer {
+  text-decoration: none;
+  color: rgba(128, 128, 128, 0.5);
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0 1rem;
+}
+
+.link-footer:hover {
+  color: #87e1ed;
+}
+
+.link-icon {
+  text-decoration: none;
+  color: rgba(128, 128, 128, 0.5);
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0 0.5rem;
+}
+
+.link-icon:hover {
+  color: #87e1ed;
+}
+
+footer > div > ul > li > p {
+  color: rgba(128, 128, 128, 0.5);
+  font-size: 12px;
+  font-weight: bold;
+}
+
+footer > div > ul > li {
+  list-style: none;
+}
+
+/* CSS generales */
+.inline-block {
+  display: inline-block;
+}
+
+/* CSS Medias Query */
+
+@media only screen and (max-width: 550px) {
+  .caja {
+    width: 100% !important;
+  }
+  .link-footer {
+    padding: 0 8rem;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .link-footer {
+    padding: 0 6rem;
+  }
+}
+
+@media only screen and (max-width: 405px) {
+  .link-footer {
+    padding: 0 4rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .link-footer {
+    padding: 0 3rem;
+  }
+}
